@@ -1,1 +1,33 @@
+public class Main {
+    public static void main(String[] args) {
+        int[] Number = {50, 60, 40, 10, 38, 65, 87, 56, 90, 100, 66, 80, 88, 40, 98};
+
+        for (int u : Number) {
+            if (u>=95) {
+                System.out.println( u+ "The Gread +A");
+            } else if (u>=90) {
+                System.out.println(u+"The Gread A");
+            } else if (u>=85) {
+                System.out.println( u+ "The Gread +B");
+            } else if (u>=80) {
+                System.out.println( u+ "The Gread B");
+            } else if(u>=75) {
+                System.out.println( u+ "The Gread +C");
+            } else if (u>=70) {
+                System.out.println( u+ "The Gread C");
+            } else if(u>=65) {
+                System.out.println( u+ "The Gread +D");
+            } else if (u>=60) {
+                    System.out.println( u+ "The Gread D");
+            } else {
+                System.out.println( u+ "The Gread F");
+
+            }
+
+
+        }
+
+        }
+
+        }
 
